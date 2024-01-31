@@ -52,7 +52,7 @@ body {
   font-size: 5vmin;
 }
 .msg-container {
-  height: 30vmin;
+  height: 100vmin;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -61,4 +61,21 @@ body {
 }
 .hide {
   display: none;
+}
+
+@media (max-width: 350px) {
+  h1 {
+    margin-top: 0.5rem;
+  }
+  #msg {
+    color: #ffffc7;
+    font-size: 8vmin;
+  }
+  .msg-container {
+    height: 230vmin;
+  }
+  #new-btn {
+    padding: 0.8rem;
+    font-size: 1rem;
+  }
 }
